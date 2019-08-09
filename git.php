@@ -1,7 +1,16 @@
 <?php
 
-    echo "this is my php file<br>";
-    echo "this is second file<br>";
+    echo "This Is Branch B";
+    echo "<br>";
+
+    function GreetingsToBranch_B() {
+
+        echo "Hey what is up?<br>";
+        echo "This is branch B,hope for fun with me!<br>";
+    }
+
+    GreetingsToBranch_B();
+    
 
    
     function gitDemo(&$name1,&$email1,&$id1) {
