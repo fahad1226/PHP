@@ -1,16 +1,15 @@
 <?php
 
-    echo "This Is Branch B";
-    echo "<br>";
 
-    function GreetingsToBranch_B() {
 
-        echo "Hey what is up?<br>";
-        echo "This is branch B,hope for fun with me!<br>";
+
+    function Greetings() {
+
+        echo "Welcome to Branch A.<br>";
+        echo "Hope you will have fun with A branch,take care.<br>";
     }
 
-    GreetingsToBranch_B();
-    
+    Greetings();
 
    
     function gitDemo(&$name1,&$email1,&$id1) {
